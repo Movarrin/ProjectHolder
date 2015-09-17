@@ -78,8 +78,7 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: marvel_bios_production
-  username: marvel_bios
-  password: <%= ENV['MARVEL_BIOS_DATABASE_PASSWORD'] %>
+  production:
+    url: <%= ENV['DATABASE_URL'] %>
+    <<: *default
+ 
