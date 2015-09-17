@@ -10,7 +10,7 @@ gem 'pg'
 gem 'uglifier', '>= 1.3.0'
 
 # asked for by heroku
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 ruby '2.2.1'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
