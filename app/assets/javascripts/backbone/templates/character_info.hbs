@@ -1,0 +1,27 @@
+<div class="character-info">
+   <div class="row">
+       <div class="col-lg-8">
+           <div class="thumbnail">
+               <img src={{ character.thumbnail.path }}.{{ character.thumbnail.extension }} alt={{ character.name }} style="min-height:350px;height:350px;" >
+               <div class="caption">
+                   <h3>{{ character.name }}</h3
+                   <p><a class="btn btn-primary add_to_favorites" role="button">Add to favorites</a> <a href="#" class="btn btn-default" role="button">info</a></p>
+               </div>
+           </div>
+       </div>
+       <div class="col-lg-4">
+           <div class="description">
+               {{ character.description }}
+           </div>
+           <div class="comics">
+               {{ character.comics }}
+           </div>
+           <div class="series">
+               {{ character.series }}
+           </div>
+           <div class="stories">
+               {{ character.stories }}
+           </div>
+       </div>
+   </div>
+</div>
